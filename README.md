@@ -9,7 +9,17 @@
 ```yaml
   - name: Get Apk Info
     id: apk
-    uses: JantHsueh/get-apk-version-action@master
+    uses: JantHsueh/get-apk-info-action@master 
+    #uses: 8Mi-Tech/get-apk-info-action@master
+    #(if this merge to `JantHsueh/get-apk-info-action` pls use `JantHsueh/get-apk-info-action`)
+    with:
+     apkPath: app/build/outputs/apk/release/app-release.apk
+```
+
+```yaml
+  - name: Get Apk Info
+    id: apk
+    uses: 
     with:
      apkPath: app/build/outputs/apk/release/app-release.apk
 ```
