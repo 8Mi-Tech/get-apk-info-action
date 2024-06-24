@@ -36,6 +36,7 @@ Output Parameter, mainly different compilation and build parameters, resulting i
 | `versionNum`   | versionNum  |
 | `applicationId`   | applicationId |
 | `name`   | application label |
+| `mainName` | application main name |
 
 
 

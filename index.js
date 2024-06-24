@@ -15,6 +15,10 @@ async function main() {
             core.setOutput("versionNum", result.versionName);
             core.setOutput("applicationId", result.package);
             core.setOutput("name", result.application.label);
+            core.setOutput("mainName", result.application.label[0]); 
+            // because i'm testing alipay's apk 
+            // if use 'name'
+            // result is 支付宝,Alipay,支付寶,支付宝,支付寶
             console.log('app info ----> ', result);
 
         }).catch(err => {
