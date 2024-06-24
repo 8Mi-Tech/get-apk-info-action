@@ -16,15 +16,6 @@
      apkPath: app/build/outputs/apk/release/app-release.apk
 ```
 
-```yaml
-  - name: Get Apk Info
-    id: apk
-    uses: 
-    with:
-     apkPath: app/build/outputs/apk/release/app-release.apk
-```
-
-
 ## Inputs
 
 | Parameter  | Required | Info                                                         |
