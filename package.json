@@ -5,6 +5,7 @@
   },
   "scripts": {
     "build-depend":"npm i -g @vercel/ncc npm-check-updates",
-    "build": "ncc build src/index.js"
+    "build": "ncc build src/index.js",
+    "all": "npm run build-depend && npm run build"
   }
 }
