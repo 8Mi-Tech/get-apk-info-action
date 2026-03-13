@@ -1,6 +1,10 @@
 {
   "dependencies": {
-    "@actions/core": "^1.11.1",
+    "@actions/core": "^2.0.3",
     "app-info-parser": "^1.1.6"
+  },
+  "scripts": {
+    "build-depend":"npm i -g @vercel/ncc npm-check-updates",
+    "build": "ncc build src/index.js"
   }
 }
